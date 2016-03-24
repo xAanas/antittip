@@ -81,8 +81,10 @@
 <?php if($page['user1'] || $page['user2'] || $page['user3'] || $page['user4']) : ?>
 <div id="section1" class="sections pure-g" role="complementary">
 <?php if($page['user1']) : ?><div class="<?php print section_class($page); ?>"><div class="u1"><?php print render ($page['user1']); ?></div></div><?php endif; ?>
-<?php if($page['user2']) : ?><div class="<?php print section_class($page); ?>"><div class="u2 <?php print divider() ?>"><?php print render ($page['user2']); ?></div></div><?php endif; ?>
-<?php if($page['user3']) : ?><div class="<?php print section_class($page); ?>"><div class="u3 <?php print divider() ?>"><?php print render ($page['user3']); ?></div></div><?php endif; ?>
+<?php if($page['user2']) : ?><div class="<?php print section_class($page); ?>"><div class="u2"><?php print render ($page['user2']); ?></div></div><?php endif; ?>
+<!--<?php if($page['user2']) : ?><div class="<?php print section_class($page); ?>"><div class="u2 <?php print divider() ?>"><?php print render ($page['user2']); ?></div></div><?php endif; ?>-->
+<?php if($page['user3']) : ?><div class="<?php print section_class($page); ?>"><div class="u3"><?php print render ($page['user3']); ?></div></div><?php endif; ?>
+<!--<?php if($page['user3']) : ?><div class="<?php print section_class($page); ?>"><div class="u3 <?php print divider() ?>"><?php print render ($page['user3']); ?></div></div><?php endif; ?>-->
 <?php if($page['user4']) : ?><div class="<?php print section_class($page); ?>"><div class="u4 <?php print divider() ?>"><?php print render ($page['user4']); ?></div></div><?php endif; ?>
 </div>
 <?php endif; ?>

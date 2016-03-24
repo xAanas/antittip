@@ -1,0 +1,24 @@
+#block-system-main-menu{
+    padding-top: 1px;
+    background-color:red;
+    font-size: 20px;
+}
+
+
+#block-system-main-menu li{
+    list-style-type: none; 
+    list-style-image: none;
+    padding-top: 10px;
+}
+
+#block-system-main-menu a{
+    padding-top: 2px;
+    color : white;
+}
+
+
+#block-system-main-menu a:hover{
+    text-decoration:none;
+    color : black;
+}
+

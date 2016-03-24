@@ -60,8 +60,13 @@ ul.links li {
 
 #block-system-main-menu{
     background-color:red!important;
+    
 }
 
 .block-menu{
     background-color : red!important;
+}
+
+a:link{
+    color:red;
 }

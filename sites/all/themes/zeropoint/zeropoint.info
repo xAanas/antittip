@@ -3,6 +3,10 @@ description = <b>0 Point responsive theme</b> is ideal for a wide range of sites
 
 core = 7.x
 
+stylesheets[all][] = css/drupal/custom-menu.css
+stylesheets[all][] = css/drupal/media.css
+stylesheets[all][] = css/drupal/carousel.css
+
 regions[page_top] = Page top
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second
