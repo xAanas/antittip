@@ -3,7 +3,7 @@
 <div id="top_left">
 <div id="top_right">
 <div id="headimg">
-
+<!--
 <div id="header" role="banner">
 <div class="clearfix">
 <?php if (theme_get_setting('loginlinks') || $page['topreg']): ?>
@@ -42,7 +42,7 @@
   <?php endif; ?>
   </div>
 </div>
-</div>
+</div>-->
 
 </div></div></div></div></div>
 
